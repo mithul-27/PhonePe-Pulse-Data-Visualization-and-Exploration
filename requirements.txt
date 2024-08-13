@@ -1,4 +1,2 @@
 plotly
-pandas
-streamlit_option_menu
 psycopg-3.2.1
