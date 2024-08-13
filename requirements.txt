@@ -1,4 +1,4 @@
 plotly
 pandas
 streamlit_option_menu
-psycopg2-binary sqlalchemy
+psycopg-3.2.1
