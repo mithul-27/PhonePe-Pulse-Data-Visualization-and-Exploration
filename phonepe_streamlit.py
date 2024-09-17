@@ -8,7 +8,7 @@ st.set_page_config(page_title= "Phonepe Pulse Data Visualization and Exploration
                    initial_sidebar_state= "expanded",
                    )
 
-cursor = st.connection('tidb', type='sql')
+cursor = st.connection('tidb', type='mysql')
 
 st.sidebar.markdown("# :black[**Hello!**] :wave:")
 st.sidebar.markdown("# :black[ Welcome to the dashboard!]")
