@@ -2,15 +2,9 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 from streamlit_option_menu import option_menu
-import mysql.connector
 
-db = mysql.connector.connect(
-  host = "gateway01.ap-southeast-1.prod.aws.tidbcloud.com",
-  port = 4000,
-  user = "2Ec717sQXDXrbge.root",
-  password = "shGX22mUul3ECK8V",
-  database = "phonepe_analysis"
-)
+db = st.connection('tidb', type='sql')
+
 cursor=db.cursor()
 
 
