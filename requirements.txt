@@ -1,2 +1,4 @@
-plotly
-psycopg-3.2.1
+plotly.express
+pandas
+streamlit_option_menu
+mysql.connector
