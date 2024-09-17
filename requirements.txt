@@ -1,6 +1,5 @@
 plotly.express
 pandas
 streamlit_option_menu
-mysql.connector
 mysqlclient
 SQLAlchemy
