@@ -1,5 +1,5 @@
 plotly.express
 pandas
 streamlit_option_menu
-mysqlclient
-SQLAlchemy
+PyMySQL==1.1.1
+SQLAlchemy==2.0.35
