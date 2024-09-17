@@ -3,12 +3,12 @@ import plotly.express as px
 import pandas as pd
 from streamlit_option_menu import option_menu
 
-cursor = st.connection('tidb', type='sql')
-
 st.set_page_config(page_title= "Phonepe Pulse Data Visualization and Exploration :exclamation:",
                    layout= "wide",
                    initial_sidebar_state= "expanded",
                    )
+
+cursor = st.connection('tidb', type='sql')
 
 st.sidebar.markdown("# :black[**Hello!**] :wave:")
 st.sidebar.markdown("# :black[ Welcome to the dashboard!]")
