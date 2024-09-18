@@ -22,7 +22,7 @@ def get_connection():
 conn = get_connection()
 cursor = conn.cursor()
 
-st.sidebar.markdown("# **Hello! :wave:")
+st.sidebar.markdown("# Hello! :wave:")
 st.sidebar.markdown("# Welcome to the dashboard!")
 
 with st.sidebar:
