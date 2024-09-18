@@ -44,19 +44,19 @@ if selected == "Home":
         st.write(" ")
         st.markdown("## :violet[Domain :] Fintech")
         st.markdown("## :violet[Technologies used :]")
-        st.markdown("### -Github Cloning")
-        st.markdown("### -Python")
-        st.markdown("### -Pandas")
-        st.markdown("### -MySQL")
-        st.markdown("### -sql-connector-python")
-        st.markdown("### -Streamlit")
-        st.markdown("### -Plotly")
+        st.markdown(" -Github Cloning")
+        st.markdown(" -Python")
+        st.markdown(" -Pandas")
+        st.markdown(" -MySQL")
+        st.markdown(" -sql-connector-python")
+        st.markdown(" -Streamlit")
+        st.markdown(" -Plotly")
         
     with col2:
         st.image("Images/icon1.jpg")
 
     st.markdown("## :violet[Overview :]")
-    st.markdown("### In this streamlit web app you can visualize the phonepe pulse data and gain lot of insights on transactions, number of users, top 10 state, district, pincode and which brand has most number of users and so on. Bar charts, Pie charts and Geo map visualization are used to get some insights.")
+    st.markdown("In this streamlit web app you can visualize the phonepe pulse data and gain lot of insights on transactions, number of users, top 10 state, district, pincode and which brand has most number of users and so on. Bar charts, Pie charts and Geo map visualization are used to get some insights.")
 
 if selected == "Top Charts":
     st.markdown("## :violet[Top Charts]")
