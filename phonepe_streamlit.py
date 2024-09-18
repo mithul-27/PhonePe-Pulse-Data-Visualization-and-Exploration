@@ -9,7 +9,7 @@ st.set_page_config(page_title= "Phonepe Pulse Data Visualization and Exploration
                    layout= "wide", page_icon=icon,
                    initial_sidebar_state= "expanded",
                    )
-title_text = '''<h1 style='font-size: 36px;color:#953FAE;text-align: center;'>Data Visualization and Exploration</h1><h2 style='font-size: 24px;color:#CC6CE7;text-align: center;'>[A User-Friendly Tool Using Streamlit and Plotly</h2>'''
+title_text = '''<h1 style='font-size: 45px;color:#CC6CE7;text-align: center;'>Data Visualization and Exploration</h1><h2 style='font-size: 24px;color:#953FAE;text-align: center;'>A User-Friendly Tool Using Streamlit and Plotly</h2>'''
 st.markdown(title_text, unsafe_allow_html=True)
 # Function to get database connection
 def get_connection():
