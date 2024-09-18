@@ -4,13 +4,14 @@ import pandas as pd
 from streamlit_option_menu import option_menu
 import mysql.connector
 
+icon = https://avatars.githubusercontent.com/u/16434584?v=4
 st.set_page_config(page_title= "Phonepe Pulse Data Visualization and Exploration :exclamation:",
-                   layout= "wide",
+                   layout= "wide", page_icon=icon,
                    initial_sidebar_state= "expanded",
                    )
-
+title_text = '''<h1 style='font-size: 36px;color:#953FAE;text-align: center;'>Data Visualization and Exploration</h1><h2 style='font-size: 24px;color:#CC6CE7;text-align: center;'>[A User-Friendly Tool Using Streamlit and Plotly</h2>'''
+st.markdown(title_text, unsafe_allow_html=True)
 # Function to get database connection
-
 def get_connection():
     return mysql.connector.connect(
         host=st.secrets["database"]["host"],
@@ -36,8 +37,6 @@ with st.sidebar:
 # MENU 1 - HOME
 if selected == "Home":
     
-    st.markdown("## :violet[Data Visualization and Exploration]")
-    st.markdown("### :violet[A User-Friendly Tool Using Streamlit and Plotly]")
     col1,col2 = st.columns([3,2],gap="medium")
     with col1:
         st.write(" ")
