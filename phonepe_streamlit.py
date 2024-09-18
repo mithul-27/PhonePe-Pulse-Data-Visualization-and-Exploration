@@ -4,7 +4,7 @@ import pandas as pd
 from streamlit_option_menu import option_menu
 import mysql.connector
 
-icon = https://avatars.githubusercontent.com/u/16434584?v=4
+icon = "https://avatars.githubusercontent.com/u/16434584?v=4"
 st.set_page_config(page_title= "Phonepe Pulse Data Visualization and Exploration :exclamation:",
                    layout= "wide", page_icon=icon,
                    initial_sidebar_state= "expanded",
