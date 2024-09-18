@@ -36,14 +36,14 @@ with st.sidebar:
 # MENU 1 - HOME
 if selected == "Home":
     
-    st.markdown("# :violet[Data Visualization and Exploration]")
-    st.markdown("## :violet[A User-Friendly Tool Using Streamlit and Plotly]")
+    st.markdown("## :violet[Data Visualization and Exploration]")
+    st.markdown("### :violet[A User-Friendly Tool Using Streamlit and Plotly]")
     col1,col2 = st.columns([3,2],gap="medium")
     with col1:
         st.write(" ")
         st.write(" ")
-        st.markdown("## :violet[Domain :] Fintech")
-        st.markdown("## :violet[Technologies used :]")
+        st.markdown("### :violet[Domain :] Fintech")
+        st.markdown("### :violet[Technologies used :]")
         st.markdown(" -Github Cloning")
         st.markdown(" -Python")
         st.markdown(" -Pandas")
@@ -55,7 +55,7 @@ if selected == "Home":
     with col2:
         st.image("Images/icon1.jpg")
 
-    st.markdown("## :violet[Overview :]")
+    st.markdown("### :violet[Overview :]")
     st.markdown("In this streamlit web app you can visualize the phonepe pulse data and gain lot of insights on transactions, number of users, top 10 state, district, pincode and which brand has most number of users and so on. Bar charts, Pie charts and Geo map visualization are used to get some insights.")
 
 if selected == "Top Charts":
